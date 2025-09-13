@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int choice;
+    
+    do { 
+        cout << " WELCOME PLEASE CHOOSE\n";
+        cout << "1. Nagkaon kana love?\n";
+        cout << "2. Miss youu mwa!\n";
+        cout << "3. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+        
+        if (choice == 1)
+        cout << "\nNagkaon kana love?\n\n";
+        else if (choice == 2)
+        cout << "\nMiss youu mwa!\n\n";
+    }while (choice !=3);
+    cout << "\nByee love mwa!\n";
+    
+    return 0;
+}
